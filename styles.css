@@ -1,2 +1,33 @@
 
 /* Your CSS Code here. */
+.box1{
+	background-color:lightblue;
+	border-style:dashed;
+	width:40%;
+	z-index:5;
+}
+.box2{
+	background-color:lightblue;
+	border-style:solid;
+	width:50%;
+	padding:50px;
+	z-index:4
+}
+.box2,p{
+	float:bottom;
+}
+.box3{
+	background-color:lightblue;
+	border-style:solid;
+	border-color:blue;
+}
+.box4{
+	background-color:blue;
+	border-style:solid;
+	border-color:black;
+}
+.box5{
+	background-color:white;
+	border-style:solid;
+	border-color:black;
+}
